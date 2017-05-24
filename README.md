@@ -4,7 +4,8 @@
 I am Brooks Boyack I started in a programing class where I learned how to use processing and i certified in C++
 Project 1 
 
-
+#Dice roller
+A dice rolling app that randomly call a number between 1 and x. 
 ```C++
 #include<iostream>
 #include<array>
@@ -33,7 +34,10 @@ int main(){
 	return 0;
 } 
 ```
-A dice rolling app that randomly call a number from 1-x. 
+
+#Calculator 
+A piano shaped calculator using GUI to oporate it. 
+![alt text](https://github.com/TheStormlord/BrooksBoyack/blob/master/images/Calc.png "Calc test")
 ```Java script
 Button[] numButton= new Button[10];
 Button[] opButton= new Button[11];
@@ -284,4 +288,4 @@ void updateDisplay() {
   text(displayVal, 270, 168);
 }
 ```
-A piano shaped calculator using GUI to oporate it. 
+
